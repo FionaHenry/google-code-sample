@@ -85,23 +85,21 @@ class VideoPlayer:
 
         video = random.randint(1, 5)
 
-        print(video)
-
         if video == 1:
             self.current_video = "Funny Dogs"
-            self.play_video
+            self.play_video(self.current_video)
         elif video == 2:
             self.current_video = "Amazing Cats"
-            self.play_video
+            self.play_video(self.current_video)
         elif video == 3:
             self.current_video = "Another Cat Video"
-            self.play_video
+            self.play_video(self.current_video)
         elif video == 4:
             self.current_video = "Life at Google"
-            self.play_video
+            self.play_video(self.current_video)
         elif video == 5:
             self.current_video = "Video about nothing"
-            self.play_video
+            self.play_video(self.current_video)
 
     def pause_video(self):
         """Pauses the current video."""
